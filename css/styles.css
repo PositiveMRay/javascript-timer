@@ -1,0 +1,64 @@
+input[type=button] {
+    display: inline-block;
+    color: cornsilk;
+}
+
+body {
+    background-color: cornsilk;
+}
+
+label {
+    text-decoration-line: underline;
+    /* color: blueviolet; */
+    color: seagreen;
+}
+
+input {
+    padding: 10px;
+    margin: 13px;
+}
+
+input[type=time] {
+    background-color: lightcoral;
+    /* color: blueviolet; */
+    color: seagreen;
+}
+
+#testBeepButton {
+    background-color: salmon;
+}
+#startButton {
+    background-color: hotpink;
+}
+
+#stopButton {
+    background-color: firebrick;
+}
+
+.lunch-card {
+    background-color: crimson;
+    width: 19em;
+    height: 10em;
+    padding-top: 7.0em;
+    margin-outside: 40px;
+    display: block;
+    text-align: center;
+    color: cornsilk;
+    font-size: xx-large;
+    alignment: center;
+}
+
+.old-lunch-card {
+    background-color: crimson;
+    width: 19em;
+    height: 10em;
+    margin-top: 7.0em;
+    margin-outside: 40px;
+    /* margin: 70px; */
+    display: block;
+    /* line-height: 9.0em; */
+    text-align: center;
+    color: cornsilk;
+    font-size: xx-large;
+    alignment: center;
+}

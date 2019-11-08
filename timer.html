@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Timer</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<label for="targetTime">Target Time: </label><input id="targetTime" type="time" value="13:00" required />
+<input id="testBeepButton" type="button" value="Test Beep" onclick="beep()" />
+<input id="startButton" type="button" value="Start Timer" onclick="startTimer()" />
+<input id="stopButton" type="button" value="Stop Timer" onclick="stopBeeping();" />
+<div id="timerDiv" class="lunch-card"><span id="message">Timer Not Running</span><br /><span id="countDown">00:00:00</span></div>
+<script src="scripts/timer.js"></script>
+</body>
+</html>
